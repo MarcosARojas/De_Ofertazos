@@ -1,0 +1,50 @@
+section{
+    display: flex;
+    justify-content: center;
+}
+
+.div{
+    width: fit-content;
+    margin: 2.5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 5px;
+    background: white;
+
+}
+
+.categoria{
+    padding: 0.5em;
+    margin-right: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-style: solid;
+    border: 5px;
+    border-color: black;
+    background: none;
+}
+
+.icon{
+    width: 3em;
+    height: 3em;
+    margin: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid;
+    border-color: black;
+    border-radius: 50%;
+    background: none;
+}
+
+.texto{
+    margin: 0;
+    padding: 0;
+}
+
+.link{
+    
+}

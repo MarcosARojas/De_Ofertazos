@@ -1,0 +1,41 @@
+.box{
+    border: gray solid 1px;
+    border-radius: 10px;
+    padding: 1em;
+    background-image: url(../../../assets/img/playa.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0px 2px 10px 2px gray ;
+    margin-bottom: 2.5em;
+}
+
+.box h2{
+    padding-bottom: 5em;
+    color: white;
+}
+.img-trending{
+    margin: 0.5em;
+    width: 3.5em;
+    border: grey solid 2px;
+    border-radius: 50%;
+}
+
+.btn{
+    height: 2.5em;
+    width: 100%;
+    border: grey solid 1px;
+    background-color: #aff4f1;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1em;
+}
+
+.btn:hover{
+    background: #d10797;
+    color: white;
+}
+.button:hover{
+    background: #d10797;
+    color: white;
+}

@@ -1,17 +1,18 @@
 section{
     display: flex;
     justify-content: center;
+    margin-bottom: 2.5em;
 }
 
 .div{
     width: fit-content;
-    margin: 2.5em;
     display: flex;
     align-items: center;
     justify-content: center;
     border: none;
     border-radius: 5px;
     background: white;
+    box-shadow: 0px 2px 10px 2px gray ;
 
 }
 
@@ -45,6 +46,3 @@ section{
     padding: 0;
 }
 
-.link{
-    
-}

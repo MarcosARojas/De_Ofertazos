@@ -1,5 +1,5 @@
 .color{
-    background-color: #3FA9F5;
+    background-color: #aff4f1;
     margin-left: 2px solid gray;
 }
 
@@ -10,8 +10,7 @@
     margin-right: 10px;
 }
 
-.caja{
-}
+
 .separar{
     display: inline;
     justify-content: space-between;
@@ -33,6 +32,6 @@
 
 
 .button:hover{
-    background: #7ED957;
+    background: #d10797;
     color: white;
 }

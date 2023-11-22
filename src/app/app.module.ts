@@ -10,13 +10,28 @@ import { SeccionInformativaComponent } from './Components/seccion-informativa/se
 import { CarruselComponent } from './Components/carrusel/carrusel.component';
 import { BannerComponent } from './Components/banner/banner.component';
 import { Route, RouterModule, Routes } from '@angular/router';
-import { UserComponent } from './Components/user/user.component';
 import { FormsModule } from '@angular/forms';
 import { FooterComponent } from './Components/footer/footer.component';
 import { HomeComponent } from './Components/home/home.component';
 import { ResetPasswordComponent } from './Components/reset-password/reset-password.component';
 import { RegisterComponent } from './Components/register/register.component';
 import { BuscadorComponent } from './Components/buscador/buscador.component';
+import { DestacadosComponent } from './Components/destacados/destacados.component';
+import { TusCategoriasComponent } from './Components/tus-categorias/tus-categorias.component';
+import { PreguntasfrecuentesComponent } from './Components/preguntasfrecuentes/preguntasfrecuentes.component';
+import { PerfilShopComponent } from './Components/shop/perfil-shop/perfil-shop.component';
+import { CatalogoShopComponent } from './Components/shop/catalogo-shop/catalogo-shop.component';
+import { DatosuserComponent } from './Components/user/datosuser/datosuser.component';
+import { MiscomprasComponent } from './Components/user/miscompras/miscompras.component';
+import { NotificacionesComponent } from './Components/user/notificaciones/notificaciones.component';
+import { EmpesaravenderComponent } from './Components/user/empesaravender/empesaravender.component';
+import { UserComponent } from './Components/user/user/user.component';
+import { MiTiendaComponent } from './Components/user/mi-tienda/mi-tienda.component';
+import { MisPublicacionesComponent } from './Components/user/mis-publicaciones/mis-publicaciones.component';
+import { MisVentasComponent } from './Components/user/mis-ventas/mis-ventas.component';
+import { TerminosYCondicionesComponent } from './Components/terminos-ycondiciones/terminos-ycondiciones.component';
+import { ContactoSoporteComponent } from './Components/contacto-soporte/contacto-soporte.component';
+
 
 const AppRoutes:Routes=[
 
@@ -26,7 +41,19 @@ const AppRoutes:Routes=[
   {path:"reset-password", component:ResetPasswordComponent},
   {path:"user", component:UserComponent},
   {path:"cart", component:CartComponent},
-  {path:"buscador", component:BuscadorComponent}
+  {path:"buscador", component:BuscadorComponent},
+  {path:"datos-user", component:DatosuserComponent},
+  {path:"notificaciones", component:NotificacionesComponent},
+  {path:"mis-compras", component:MiscomprasComponent},
+  {path:"empesaravender", component:EmpesaravenderComponent},
+  {path:"mi-tienda", component:MiTiendaComponent},
+  {path:"mis-publicaciones", component:MisPublicacionesComponent},
+  {path:"mis-ventas", component:MisVentasComponent},
+  {path:"terminos-y-condiciones", component:TerminosYCondicionesComponent},
+  {path:"contacto-soporte", component:ContactoSoporteComponent}
+
+  
+  
 
 ];
 
@@ -43,7 +70,16 @@ const AppRoutes:Routes=[
     HomeComponent,
     ResetPasswordComponent,
     RegisterComponent,
-    BuscadorComponent
+    BuscadorComponent,
+    DestacadosComponent,
+    TusCategoriasComponent,
+    DatosuserComponent,
+    MiscomprasComponent,
+    NotificacionesComponent,
+    EmpesaravenderComponent,
+    PreguntasfrecuentesComponent,
+    PerfilShopComponent,
+    CatalogoShopComponent,
   ],
   imports: [
     BrowserModule,

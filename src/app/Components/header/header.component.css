@@ -1,13 +1,16 @@
 .color{
     background-color: #aff4f1;
-    margin-left: 2px solid gray;
+    margin: 0;
+    padding: 0;
+    height: 10vh;
 }
 
 
 .logo img{
-    width: 50px;
     background-color: black;
     margin-right: 10px;
+    
+    max-height: 10vh;
 }
 
 

@@ -17,7 +17,6 @@
 .tarjeta-user{
     padding: 1%;
     display: flex;
-    align-items: end;
     border-radius: 10px;
     box-shadow: 0px 1px 5px 1px gray ;
     margin-bottom: 1.5em;

@@ -2,3 +2,10 @@
     background: local;
     background-color: #aff4f1;
 }
+
+.correccion{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 20vh;
+}

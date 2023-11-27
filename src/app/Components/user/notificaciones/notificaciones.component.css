@@ -1,0 +1,42 @@
+.mega-box{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 60vh;
+}
+
+h2{
+    padding-left: 10%;
+    padding-top: 1.5em;
+}
+
+.box{
+    margin: 2.5em 10% 2.5em 10%;
+    background-color: rgb(240, 240, 240);
+    border-radius: 10px;
+    
+    height:auto;
+}
+
+.box-img{
+    background: none;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+}
+
+.box-notificacion{
+    background: none;
+    margin: 1em;
+}
+
+button{
+    border: none;
+    background: none;
+    color: #d10797;
+}
+.div{
+    height: 100vh;
+    width: 100%;
+}
